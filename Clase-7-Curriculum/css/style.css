@@ -1,0 +1,83 @@
+body{
+    align-content: center;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    text-align: center; 
+}
+
+    header{
+        margin: 10px;
+
+    }
+
+    #foto{
+        width: 5cm;
+        margin: auto;
+        display: block;
+    }
+
+    h1{
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 42px;
+        text-align: center;
+        background-color: lightgray;
+        border-radius: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
+
+    .subtitulo{
+        font-size: 30px;
+        text-align: center;
+        background-color: lightgray;
+        font-weight: bold;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-radius: 10px;
+    }
+
+    #datos{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        list-style: none;
+        margin: 10  px;
+    }
+
+    span{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    footer{
+        font-size: px;
+        text-align: center;
+        background-color: rgb(184, 190, 190);
+        font-weight: bold;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-radius: 10px;
+    }
+    
+    #footer{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
