@@ -5,67 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Geovani Carvajal">
     <title>PetShop</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <p>Grandes Ofertas en Comederos  </p>
-            <ul>
-                <li><span>Arg</span></li>
+        <div id="principal">
+            <p id="bienvenida">Grandes Ofertas en Comederos </p>
+            <ul id="idiomas">
+                <li><span>$ARG</span></li>
                 <li><span>Español</span></li>
             </ul>
-            <img src="img/sumatra.jpg" alt="Logo PetShop">
+        </div>
+        <div id="logo-nav">
+            <img id="logo" src="img/Logo.png" alt="Logo PetShop">
             <nav>
-                <ul>
-                    <li>Categorias</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Categorias </a></li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Pets </a></li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Nosotros </a></li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Contactanos </a></li>
             </nav>    
+        </div>   
+      
     </header>
-    <seccion>
-        <img src="img/bowl-and-pet-daities-on-green-background 1.png">
-        <h3>Es un placer tenerte aqui</h3>
-        <p>¡Comedereos en Descuento!</p>
-        <p><a href="Comederos">COMEDEROS</a></p>
-   
-        <h1><strong>Productos Destacados</strong></h1>
-        <p>Comedereros - Accesorios - Comida</p>
 
+    <seccion>
+        <div id="entrada">
+            <h1 id="Titulo">¡Es un placer tenerte aqui!</h1>
+            <p id="Mensaje">¡Comedereos en Descuento!</p>
+            <button id="Ofertas">COMEDEROS</button>
+        </div>
+
+        <div>
+            <p id="Huella"><i class="fas fa-paw" style="font-size: 24px"></i></p>
+            <h2><strong>Productos Destacados</strong></h2>
+            <p id="idea">Comedereros - Accesorios - Comida</p>
+        </div>
+
+    <div class="productos">
         <img src="img/churrasquito.png" alt="Juguete churrasquito">
         <p>Juguete Churrasquito</p>
-        <p>$150</p>
-
+        <p class="precio">$150</p>
+    
         <img src="img/comedero.png" alt="Comedero para Mascota">
         <p>Comedero para perro</p>
-        <p>$250</p>
+        <p class="precio">$250</p>
 
         <img src="img/Huesito.png" alt="Juguete en forma de Hueso">
         <p>Juguete Huesito</p>
-        <p>$650</p>
-    <div>
-        <h2>Contactenos</h2>
+        <p class="precio">$650</p>
+    </div>
+
+    <div class="formulario">
+        <h2>Contáctanos</h2>
         <form action="Formulario">
             <p><input type="text" name="Nombre y Apellido" placeholder="Nombre y apellidos"></p>
             <p><input type="email" name="Correo Electronico" placeholder="Ingresa tu Correo Electronico"></p>
             <p><input type="number" name="Telefono" placeholder="Telefono"></p>
-            <button>Resetear</button>
-            <button>Enviar</button>
+            <button id="res">Resetear</button>
+            <button id="send">Enviar</button>
         </form>
-    </div>
+    
         <br>
-        <span>Suscribete para mas novedades</span>
-        <input type="email" name="Correo Electronico" placeholder="Ingresa tu correo Electronico">
-        <button>Suscribirme</button>
+        <div class="suscribirse">
+            <span><i class="fas fa-envelope-open-text"></i> Suscribete para mas novedades</span>
+            <input type="email" name="Correo Electronico" placeholder="Ingresa tu correo Electronico">
+            <button id="scr">Suscribirme</button>
+        </div>
     </div>
-        <h3>Localidad</h3>
-        <p>Calle-Provincia</p>
 
-        <h3>Telefono</h3>
-        <p>Numero de Teléfono</p>
+   
+    <div class="datos">
+        <h3><i class="da fas fa-map-marked-alt"></i> <span> Localidad</span></h3>
+        <p id="date">Calle-Provincia</p>  
 
-        <h3>Correo Electrónico</h3>
-        <p>Direccion de Correo</p>
+        <h3><i class="da fas fa-phone"></i> <span> Telefono</span></h3>
+        <p id="date">Numero de Teléfono</p>
+
+        <h3><i class="da fas fa-envelope"></i> <span> Correo Electrónico</span></h3>
+        <p id="date">Direccion de Correo</p>
+
+         <img id="LogoFinal" src="img/LogoFinal.png" alt="Logo">
+    </div>
+    
+   
+
     </seccion>
 
         <footer>Todos los derechos reservados Frontend</footer>
