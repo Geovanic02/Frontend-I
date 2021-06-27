@@ -4,80 +4,95 @@ body{
     margin: auto;
     padding: auto;
     text-align: center; 
+    font-family: 'Roboto Slab', serif;
 }
 
-    header{
-        margin: 10px;
+header{
+    margin: 10px;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;  
+}
 
-    }
-
-    #foto{
-        width: 5cm;
-        margin: auto;
-        display: block;
-    }
-
-    h1{
-        font-family:'Times New Roman', Times, serif ;
-        font-size: 42px;
-        text-align: center;
-        background-color: lightgray;
-        border-radius: 10px;
-        margin-left: 200px;
-        margin-right: 200px;
+#foto{
+    width: 4.5cm;
+    margin: auto;
+    padding: 60px;
+    display: block;
         
-    }
+}
 
-    .subtitulo{
-        font-size: 30px;
-        text-align: center;
-        background-color: lightgray;
-        font-weight: bold;
-        margin-left: 200px;
-        margin-right: 200px;
-        border-radius: 10px;
-    }
+h1{
+    font-size: 42px;
+    text-align: center;
+    background-color:#CECDCC;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+        
+}
 
-    #datos{
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;
-        font-style: italic;
-    }
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+    background-color: #CECDCC;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
 
-    li{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        list-style: none;
-        margin: 10  px;
-    }
+#datos{
+    font-size: 20px;
+}
 
-    span{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        font-weight: bold;
-        font-style: italic;
-    }
-    p{
-        font-family: 'Times New Roman', Times, serif;
-        font-style: normal;
-        font-size: 20px;
-        margin: 10px;
-    }
+li{
+    font-size: 20px;
+    list-style: none;
+    margin: 10  px;
+}
 
-    footer{
-        font-size: px;
-        text-align: center;
-        background-color: rgb(184, 190, 190);
-        font-weight: bold;
-        margin-left: 200px;
-        margin-right: 200px;
-        border-radius: 10px;
-    }
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{        
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.newhtml a{
+    text-decoration: none;
+    color: black;
+}
+
+.newhtml i{
+    color: #2BAF11;
+
+    font-size: 30px;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color:#CECDCC;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
     
-    #footer{
-        font-size: 25px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;
-    }
-    
+#footer{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+a i{
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+}
+
