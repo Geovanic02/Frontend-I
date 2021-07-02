@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+    background-color:#222222;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu li{
+    display: inline-flex;
+    margin: 15px;
+    font-size: 20px;
+    color: #F3F3F3;
+    font-weight: 400;
+}
+
+section{
+    display: flex;
+    padding: 35px;
+    background-color: #E5E5E5;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center ;
+}
+
+#delivery{
+    position: relative;
+    width: 580px;
+    height: 400;
+    top: -19px;
+}
+#podio{
+    background-color: rgb(255, 255, 255);
+    width: 580px;
+    height: 402px;
+}
+
+#pizza{
+    position: relative;
+    width: 120px;
+    height: 155px;
+    left: 380px;
+    top: 80px;
+    display: block;
+}
+
+#envio{
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    right: -12px;
+    font-size: 24px;
+    color: #FC200C;
+    z-index: 10;
+}
+#envio span{
+    color: #FFFFFF;
+}
+
+#podio h2{
+    text-align: center;
+    color: #FC200C;
+    position: relative;
+    top: 25px;
+}
+
+#contenedor{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    font-weight: 700;
+}
+#contenedor h3{
+    margin: 10px;
+    font-size: 20px;
+
+}
+#contenedor li{
+    margin: 8px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #222222;
+    align-items: center;
+}
+
+footer p{
+    color: #F3F3F3;
+    font-size: 17px;
+    margin: 15  px;
+}
