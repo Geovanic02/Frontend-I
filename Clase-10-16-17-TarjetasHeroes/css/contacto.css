@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+/*Header*/
+#Principal{
+    background-color: #1CD1B0;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+}
+#Titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+#Titulo h3{
+
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+.credenciales{
+    background-color:#001D2D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
+.credenciales a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #00669F;
+    font-size: 18px;
+    color: #FFF9F9;
+    padding: 16px;
+}
+
+.credenciales a:hover, a:active{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/**Formulario de Contacto**/
+
+section.formulariocontacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+form.contacto h1{
+    font-family: 'Inter', sans-serif;    
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+
+.contacto input{
+    font-family: 'Karla', sans-serif;
+    border: 1px solid black;
+    color: black;
+    margin: 5px 50px 5px;
+    width: 80%;
+    padding: 10px;
+}
+
+::placeholder{
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding:10px;
+}
+
+textarea{
+    margin: 5px 50px 5px;
+    width: 80%;
+    padding:10px;
+    height: 200px;
+    border: 1px black solid;
+}
+
+form .botonesContacto{
+    margin:20px;  
+    text-align: center;
+    width: 100%;
+}
+
+.botonesContacto #boton1{
+    background: #888888;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 30%;
+    padding: 8px;
+    border: transparent;
+    border-radius: 20px;
+}
+
+.botonesContacto #boton2{
+    background: #1CD1B0;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 30%;
+    padding: 8px;
+    border: transparent;
+    border-radius: 20px;
+}
+
+.botonesContacto #boton1:hover ,#boton2:hover{
+    background: #00669F;
+    color: red;
+}

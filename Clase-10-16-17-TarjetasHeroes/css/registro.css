@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Tipografia 300/500/700
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*****Header******/
+#Principal{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1CD1B0;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#Titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+#Titulo h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    font-size: 18px;
+    color: #FFF9F9;
+    padding: 16px;
+}
+
+/*Section*/
+
+body{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+form.registro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    margin:10px 50px 10px 5px;
+}
+
+.registro input{
+    padding:10px;
+    border: 1px black solid;
+    margin: 10px;
+
+}
+
+::placeholder{
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+     font-weight: 500;
+}
+
+.registro #pais{
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+}   
+form .botonesRegistro{
+    margin:20px;  
+    text-align: center;
+    width: 100%;
+}
+
+.botonesRegistro #boton1{
+    background: #888888;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 30%;
+    padding: 8px;
+    border: transparent;
+    border-radius: 20px;
+}
+
+.botonesRegistro #boton2{
+    background: #1CD1B0;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 30%;
+    padding: 8px;
+    border: transparent;
+    border-radius: 20px;
+}
+
+form #ingresaraLogin{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    align-self: center;
+    font-size: 16px;
+}
+
+form #ingresaraLogin a{
+    color: #00669F;
+    text-decoration: none;
+}
+
+form #ingresaraLogin a:hover{
+    background: #888888;
+    color: red;
+}
+
+.registro #boton1:hover ,#boton2:hover{
+    background: #00669F;
+    color: red;
+}
+
+input:hover{
+    background: #888888;
+}

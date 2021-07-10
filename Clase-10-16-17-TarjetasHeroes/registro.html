@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Karla:wght@300&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h3 id="Principal">20% de descuento en todos los productos!</h3>
+        <div id="Titulo">
+            <img src="img/logo 1.png" alt="logo">
+            <h3>Nombre Tienda</h3>
+        </div>
+    </header>
+    <section >
+        <div class="formulario">
+            <form class="registro" action="js/login.js" method="POST">
+                <h1>Registro</h1>
+                <input type="text" name="Nombre" placeholder="Nombre y Apellido">
+                <input type="email" name="email" placeholder="Correo Electrónico">
+                <input type="password" name="password" placeholder="Contraseña">
+                <select name="pais" id="pais">  
+                        <option value="col">Colombia</option>
+                        <option value="arg">Argentina</option>
+                        <option value="bra">Brasil</option>
+                        <option value="mex">Mexico</option>
+                </select>
+                
+                <div class="botonesRegistro">
+                    <button type="reset" id="boton1">Resetear</button>
+                    <button type="submit" id="boton2">Registar</button>
+                </div>
+                <span id="ingresaraLogin">¿Ya tienes una cuenta? <a href="login.html">Ingresa</a></span>
+            </form>
+        </div>  
+    </section>
+        <footer>Todos los derechos resevados a FRONT END I</footer>
+</body>
+</html>
