@@ -47,6 +47,11 @@ body{
     flex-wrap: wrap;
 }
 
+#logo-nav ol{
+    display: flex;
+    flex-direction: row;
+}
+
 #logo{ 
     width:  332.76px;
     height: 46px;
@@ -285,8 +290,23 @@ footer{
     margin: 10px;
 }
 
-@media  (max-width: 525px){
-    .principal{
-        display:none;
-    }
+#fondo{
+    background-color: #b6b6b6;
+}
+
+/**PSEUDO-SELECTORES**/
+
+a:hover, a:active{
+    font-size: 30px;
+    color: magenta;
+}
+
+i:hover{
+    font-size: 30px;
+}
+
+.entrada #BotonComederos:hover{
+    font-size: 30px;
+    color: black;
+    background-color: blueviolet;
 }
