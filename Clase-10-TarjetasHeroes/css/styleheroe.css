@@ -37,19 +37,19 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
+
+
 
 .credenciales a{
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 300;
     text-decoration: none;
     margin: 10px;
     text-decoration: none;
     color: #FFFFFF;
-    
-
 }
 
 footer{
@@ -62,97 +62,8 @@ footer{
     padding: 16px;
 }
 
-.credenciales a:hover, a:active{
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-}
 
-
-
-/*****CARDS*****/
-
-section.print{
-    display: flex;
-    position: relative;
-    display:inline;
-    width: 40%;
-   
-}
-
-.prin{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 60px;
-}
-
-    
-.Foto{
-    position: relative;
-    left: 130px;
-    border-radius: 50%;
-    bottom: 70px;
-    display: block;
-    z-index: 10;
-}
-
-
-
-
-.prin h2{
-    position: relative;
-    text-align: center;
-    top: 80px;
-}
-
-.prin p{
-    position: relative;
-    text-align:justify;
-    top: 80px;
-    font-weight: 500;
-    margin: 10px;
-    font-size: 16px;
-    padding: 8px;
-}
-
-.corazon{
-    position: relative;
-    left: 55px;
-    bottom: 140px ;
-}
-
-.prin button{
-    text-align: center;
-    position: relative;
-    top: 100px;
-    background-color: #00669F;
-    color: #F3F3F3;
-    font-size: 15px;
-    padding: 17px 55px;
-    border: transparent;
-}
-
-button:hover{
-    background: #001D2D;
-    color: red;
-}
-
-.Fondo{
-    position: relative;
-    background-color: #F3F3F3;
-    width:300px;
-    height: 320px;
-    text-align: center;
-    bottom: 128px;
-    left: 34px;
-}
-
-
-
-
-/**FORMULARIO CREAR HEROE**/
+/**FORMULARIO CREACIÓN HEROE**/
 .tuheroe{
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -295,7 +206,7 @@ hr{
     background-color: #001D2D;
 }
 
-input:hover, select:hover, textarea:hover{
+.tuheroe input:hover, select:hover, textarea:hover{
     background-color: #e2e2e2;
     color: black;
 }
